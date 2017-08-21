@@ -7,8 +7,8 @@
 <body>
 
 <nav class="nav">
-  <img class="hamburger" id="hamburger" onClick={() => this.showClose()} src="/images/hamburger.png"/>
-  <img class="close" id="close" onClick={() => this.showHamburger()} src="/images/close.png" />
+  <img class="hamburger" id="hamburger" onClick={() => this.showClose()} src="images/hamburger.png"/>
+  <img class="close" id="close" onClick={() => this.showHamburger()} src="images/close.png" />
     <a class="desk-nav" href="#weekend-deets">Details</a>
     <a class="desk-nav" href="#getting-here">Travel/Lodging</a>
     <a class="desk-nav" href="#story">Story</a>
@@ -38,7 +38,247 @@
     </div>
   </div>
 
+<h3 class="text-center">Count down to catrimony: { this.state.days } days, { this.state.hours } hours, { this.state.minutes } minutes, and { this.state.seconds } seconds</h3>
 
+<div class="container weekend-details">
+  <h1 class="calligraphy" id="weekend-deets">Weekend Details</h1>
+  <div class="row detail-element">
+    <h4>
+      The party before the party (Welcome to Colorado!)
+    </h4>
+    <div class="eight columns">
+      <p>We know that the wedding day can go really quickly and so we want to dedicate as much time as possible to seeing you. We are hosting a welcome party, and we hope you can make it! The format here will be like an open house, so feel free to stay the whole time, or just stop by. We'd love to grab a drink with you and welcome you to Colorado. Kids are welcome at this event.</p>
+      <strong>Details:</strong>
+      <ul>
+        <li><strong>Date:</strong>&nbsp;Saturday, December 16th</li>
+        <li><strong>Time:</strong>&nbsp;2pm - 5pm</li>
+        <li><strong>Location:</strong>&nbsp;Private Address. The location will be included in your invite.</li>
+        <li><strong>Formality:</strong>&nbsp;Informal</li>
+        <li>Light appetizers and drinks served!</li>
+      </ul>
+    </div>
+    <img class="three columns" src="images/inxpot-sign.jpg" />
+  </div>
+  <div class="row detail-element">
+    <h4>The Main Event</h4>
+    <img class="three columns" src="images/ranch-winter.jpg"/>
+    <div class="eight columns">
+      <ul class="wedding-details">
+        <li><strong>Ceremony Start Time:</strong> 3:30PM MTN Standard Time</li>
+        <li><strong>Location:</strong> Keystone Ranch</li>
+          <ul>
+            <li><strong>Address:</strong> 1437 Co Rd 150, Keystone, CO 80435</li>
+            <li><a target="_blank" href="https://www.google.com/maps/dir/River+Run+Village,+Keystone,+CO/Keystone+Ranch,+1437+Co+Rd+150,+Keystone,+CO+80435/@39.6064411,-105.9743359,16.62z/am=t/data=!4m13!4m12!1m5!1m1!1s0x876a57351d8d16eb:0x6616a68ed9b7bcb7!2m2!1d-105.9431154!2d39.607185!1m5!1m1!1s0x876a59935cd93297:0x3db9b0557f3011d7!2m2!1d-105.9947147!2d39.5850255">Map</a>
+              <ul>
+                <li><strong>On Getting There:</strong>&nbsp;Navigating to Keystone Ranch can be somewhat tricky, as simply navigating on your phone may lead you to roads that are active for the golf course in the summer, but closed in the winter. We highly suggest that if you are driving yourself, give yourself some extra time to arrive, and that you take the directions in the map linked above.</li>
+                <li><strong>On-Resort transporation is provided!</strong>&nbsp;Keystone Resort conveniently offers free shuttling around the resort. For the wedding, a dedicated shuttle will be available for guests to get to and from the wedding. More information on this will be provided as it becomes available.</li>
+              </ul>
+            </li>
+          </ul>
+        <li><strong>Attire:</strong> Black Tie</li>
+          <ul>
+            <li>Ladies: Evening Gown or formal cocktail dress is appropriate, often accompanied by gloves and a wrap or stole.</li>
+            <li>Gentlemen: Tuxes, or most formal suit in possesion.</li>
+            <li><strong>***Please Note: </strong> It will be snowy, and cold. It is encouraged to wear winter boots to the event, and change footwear there. There will be a coat room available.</li>
+            <li><a target="_blank" href="https://en.wikipedia.org/wiki/Black_tie">More Information</a></li>
+          </ul>
+        <li><strong>Children: </strong>We love kids. We (probably) love your kids. However, this event will be strictly adult. Hopefully you are happy about this, but if not, we hope you will forgive us - but we are not budging on this. You are welcome to bring your children to Keystone with you though! There are tons of family <a href="http://www.keystoneresort.com/activities/kidtopia.aspx?page=viewall">activities</a> that sound like a blast for kids. If you are interested in sharing a sitter, please contact us and we can help coordinate that! Here are some resources: </li>
+            <ul>
+              <li><a href="http://www.summitcove.com/area-info/business-partners/babysitters-in-summit-county/">Summit Cove Sitters</a></li>
+              <li><a href="http://www.resortsitters.com/">Resort Sitters</a></li>
+            </ul>
+      </ul>
+    </div>
+  </div>
+  <div class="row detail-element">
+    <h4>The After Party (Don't be scared to win)</h4>
+    <p class="eight columns">When the reception ends at 10pm, the party will continue on at 9280 tap house on the Keystone resort.</p>
+    <img class="three columns" src="images/9280-tap.jpg"/>
+  </div>
+</div>
+
+<div class="our-story" id="story">
+  <h1 class="text-center calligraphy">Our Story</h1>
+  <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1gdTxKs4HIDAjU1WfgLSW5pT0Jwd1nxPz53i2S0o2ELo&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' frameborder='0'></iframe>
+</div>
+
+<div class="container travel" id="getting-here">
+  <h1 class="calligraphy text-center" >Getting Here</h1>
+  <div class="row">
+    <div class="four columns detail-element">
+      <h4 class="text-center">By Plane</h4>
+      <p>The closest and most convenient airport to the wedding location will be Denver International Airport. If you need to grab a hotel room the night after you arrive, or before you leave, <a target="_blank" href="http://www.flydenver.com/traveler_services/hotels">here</a> is a list to access those.</p>
+    </div>
+    <div class="four columns detail-element">
+      <h4 class="text-center">By Shuttle</h4>
+      <p>Our guests will have access to discounted transportation to Keystone Resort through <a target="_blank" href="http://www.coloradomountainexpress.com/">Colorado Mountain Express</a>. This is a shuttle that can pick up from Denver International airport and bring you directly to the resort. To access the discount, please contact CME and use the code <strong>GO4DIE</strong>. We highly encourage shuttle to and from DIA to avoid driving on the potentially snowy mountain roads, and this service also allows room for skiis/boards if you have them!</p>
+    </div>
+    <div class="four columns detail-element">
+      <h4 class="text-center">While Here</h4>
+      <p>Once at Keystone, getting around is easy. Free shuttle buses run daily throughout the Keystone Resort as well as surrounding ski areas. See <a target="_blank" href="http://www.keystoneresort.com/plan-a-vacation/transportation-schedule-and-parking.aspx#/GettingAround">here</a> to access schedules for Keystone, and <a target="_blank" href="http://summitcountyco.gov/586/Transit-Summit-Stage/?cmpid=ET7217064&cmpid=ET7878642_KY_REU_1_FY17">Check out these schedules</a> to explore summit county and the surrounding resorts.</p>
+    </div>
+  </div>
+  <hr />
+  <div class="row">
+    <div class="six columns detail-element">
+      <h4 class="text-center">Staying Here</h4>
+      <p>Discounted Lodging is available for our guests through Keystone Resort. To look at rates/availability, please visit <a target="_blank" href="https://gc.synxis.com/rez.aspx?Hotel=40076&Chain=6521&start=availresults&arrive=12/17/2017&depart=12/18/2017&adult=1&child=0&group=GO4DIE">this link</a>, or call <a href="tel:888-273-2502">888-273-2502</a>. This is a great option because you are right on the resort and won't have to worry about logistics.</p>
+      <p>However, being that Keystone is a ski town, we also suggest that guests also look into <a target="_blank" href="https://www.airbnb.com/s/Keystone--CO--United-States?guests=2&place_id=ChIJg2V85yRXaocRYfovfYgMZ0M&checkin=12%2F16%2F2017&checkout=12%2F18%2F2017&ss_id=coc8kltt&source=bb&page=1&allow_override%5B%5D=&s_tag=8n6KaoZf">Air BNB</a> for a variety of lodging options to accomodate small and large groups at a reasonable cost, often times with access to a kitchen. A potential downside is Air BNB rentals may not be as convenient to public transportation, but Steve and I have not experienced that before. Just remember to keep that in mind when searching and booking.</p>
+        <p><a target="_blank" href="http://www.keystoneresort.com/activities/winter-activities.aspx">Winter activities around Keystone</a></p>
+        <p><a target="_blank" href="http://www.keystoneresort.com/restaurants-and-nightlife/dining-explorer.aspx">Keystone Dining Explorer</a></p>
+    </div>
+    <div class="six columns detail-element">
+      <h4 class="text-center">A word about altitude...</h4>
+      <p>
+        Whether you're a 2:45:04 marathon runner or a couch potato we want you to know that altitude sickness is real and statistically will affect a small number of our guests. Most folks experience at least a little discomfort until they acclimate to the altitude. <a href="http://www.webmd.com/a-to-z-guides/tc/altitude-sickness-topic-overview#1">Here</a> is an WebMD article which details how to deal with altitude, but in summary: stay hydrated, be cautious with alcohol, eat well, and take it easy on physical exertion to allow your body to acclimate. (We're not kidding about easing into exercise, you fitness freaks!)
+      </p>
+      <p>
+        Being affected by altitude is never fun, but most cases are very temporary - like an annoying hangover. The best you can do is <strong>rest, stay hydrated, ease up on alcohol and heavy foods, and stay positive</strong>. You'll be feeling yourself again after a good night sleep.
+      </p>
+      <p>
+        One more reminder: It will get cold! That sounds obvious, but we are serious. Please remember to dress appropriately to keep yourself comfortable and safe. One phrase we like to remember is "The heat is all in the sun." If the sun is out, there is a good chance that it will be warmer out. However, temperatures drop dramatically when it sets.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="favorite-places">
+  <div class="info">
+    <h2>Have Time to Explore CO?</h2>
+    <a target="_blank" href="https://drive.google.com/open?id=1o6KoLEliyndmCoL-HSWf3wo-qlw&usp=sharing"><button>Check out our favorite spots</button></a>
+  </div>
+</div>
+
+<div class="vip" id="vip">
+  <div class="row text-center container">
+      <h1 class="calligraphy vip-title">VIP</h1>
+      <p><em>A little background on the people we've chosen to stand with us at the ceremony.</em></p>
+    </div>
+  <div class="container">
+    <div class="six columns">
+      <div class="row">
+        <div class="four columns">
+          <img class="party-img" src="images/party/maids/Kim.png" />
+        </div>
+        <div class="eight columns">
+          <h4>Matron of Honor</h4>
+          <p>
+            <strong>Kim</strong> has been Kathy’s big sister for literally longer than she can remember. She is the most loyal, reliable, thoughtful, and helpful person Kathy has ever met, and one of her personal heroes.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="four columns">
+          <img class="party-img" src="images/party/maids/katie.jpg" />
+        </div>
+        <div class="eight columns">
+          <h4>Matron of Honor</h4>
+          <p>
+            <strong>Katie</strong> and Kathy have known each other since college, and she has been one of the most important people in Kathy’s life. Katie is Kathy’s girl soul mate and has always been there when needed most.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="four columns">
+          <img class="party-img" src="images/party/maids/danielle.png" />
+        </div>
+        <div class="eight columns">
+          <h4>Bridesmaid</h4>
+          <p>
+            <strong>Danielle</strong> has been Kathy’s older sister a slightly shorter amount of time than Kim, but they have been close friends since high school.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="four columns">
+          <img class="party-img" src="images/party/maids/kristin.png" />
+        </div>
+        <div class="eight columns">
+          <h4>Bridesmaid</h4>
+          <p>
+            <strong>Kristin</strong> is one of Kathy’s best friends in Colorado. Kathy met Kristin through Steve’s job (they still work together) and instantly bonded on how bad Steve can be with girls.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="four columns">
+          <img class="party-img" src="images/party/maids/elena.png" />
+        </div>
+        <div class="eight columns">
+          <h4>Bridesmaid</h4>
+          <p>
+            <strong>Elena</strong> is another of Kathy’s best friends in Colorado. Kathy likes to think of their friendship as the one good thing that came out of working as a buyer at UNFI.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="six columns">
+      <div class="row">
+        <div class="four columns">
+          <img class="party-img" src="images/party/men/brian.png" />
+        </div>
+        <div class="eight columns">
+          <h4>Best Man</h4>
+          <p>
+            <strong>Brian</strong> will be the easiest guy at the wedding to start a conversation with. For a good ice breaker, just ask him how he and Steve met. Friends since College.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="four columns">
+          <img class="party-img" src="images/party/men/kel.png" />
+        </div>
+        <div class="eight columns">
+          <h4>Groomsman</h4>
+          <p>
+            <strong>Kelvin</strong> is the only guy to ever match Steve at his favorite board game. Unfortunately for the two of them, that means neither of them has ever won. Future brother in law.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="four columns">
+          <img class="party-img" src="images/party/men/mark.png" />
+        </div>
+        <div class="eight columns">
+          <h4>Groomsman</h4>
+          <p>
+            <strong>Mark</strong> and Steve have spent more hours studying together at UConn than fish spend in the water. Neither graduated with honors.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="four columns">
+          <img class="party-img" src="images/party/men/longo.png" />
+        </div>
+        <div class="eight columns">
+          <h4>Groomsman</h4>
+          <p>
+            <strong>John</strong> literally taught Steve everything he knows about snowboarding. To return the favor Steve taught Longo how to build a cabin. Friends since college.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="four columns">
+          <img class="party-img" src="images/party/men/Kyle.png" />
+        </div>
+        <div class="eight columns">
+          <h4>Groomsman</h4>
+          <p>
+            <strong>Kyle</strong> and Steve share all the simple hobbies together. Holidays, breweries, and marvel movies. Kyle moved out to Colorado a year after Steve and Kathy with his girlfriend Jen, but they have been friends since college.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row container">
+    <div class="four offset-by-one columns">
+      <img src="images/party/kids.jpg" />
+    </div>
+    <div class="six columns">
+      <p class="text-center">What's a wedding without a little "awwww!!!" These are Katie's gorgeous kids Gus and Charlie. Gus will walk as the ring bearer and Charlie (Kathy's goddaughter) will be the flower girl.</p>
+    </div>
+  </div>
+</div>
 
   <script type="text/javascript" src="js/jquery-3.2.1.slim.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
